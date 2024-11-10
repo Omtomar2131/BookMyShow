@@ -5,9 +5,9 @@ const connectDB = require('./dbConnection');
 
 // CORS configuration - Allow only the frontend URL
 app.use(cors({
-    origin: 'http://localhost:3000', // Update this with your frontend URL (for React, it is typically localhost:3000)
-    methods: ['GET', 'POST'], // Allow GET and POST requests
-    allowedHeaders: ['Content-Type'], // Allow Content-Type header
+    origin: 'https://book-my-show-lemon-rho.vercel.app', 
+    methods: ['GET', 'POST'], 
+    allowedHeaders: ['Content-Type'], 
 }));
 
 app.use(express.json());
