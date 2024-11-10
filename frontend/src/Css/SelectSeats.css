@@ -1,0 +1,29 @@
+/* Main container for the SS section */
+.SS_main_container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    color: black;
+}
+
+/* Heading styling for SS section */
+.SS_heading {
+    width: 100%;
+    font-size: 22px;
+    color: black; /* Default text color */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for background and color change */
+    padding: 10px 20px; /* Adding padding to make it look better */
+    cursor: pointer;  /* Indicating the text is clickable */
+}
+
+/* Active state for SS_heading */
+.SS_heading.active {
+    background-color: red;  /* Red background when active */
+    color: white;            /* White text when active */
+}
+
+/* Optional: Hover effect for better interactivity */
+.SS_heading:hover {
+    background-color: #f0f0f0; /* Light background on hover */
+    color: black;              /* Black text on hover */
+}

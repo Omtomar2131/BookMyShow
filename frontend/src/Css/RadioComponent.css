@@ -1,0 +1,36 @@
+/* .form-check-label for normal state */
+.form-check-label {
+    padding: 10px 15px;
+    font-size: 18px;
+    border: 2px solid rgb(10, 10, 10);
+    margin: 10px;
+    cursor: pointer;
+    display: inline-block; /* Ensure the label has block-like behavior */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for color change */
+  }
+  
+  /* .text styling for movie name */
+  .text {
+    font-size: 17px;
+    text-align: center;
+  }
+  
+  /* Active state styling for the selected movie */
+  .form-check-label.active {
+    background-color: red; /* Red background for active selection */
+    color: white; /* White text color for active state */
+    font-weight: bold; /* Bold text for emphasis */
+    border-color: red; /* Red border for active selection */
+  }
+  
+  /* Active text styling */
+  .text.active-text {
+    color: white; /* Ensure the text is visible on red background */
+  }
+  
+  /* Optional: Hover effect for better interactivity */
+  .form-check-label:hover {
+    background-color: #f0f0f0; /* Light gray background on hover */
+    border-color: #ccc; /* Lighter border color on hover */
+  }
+  
