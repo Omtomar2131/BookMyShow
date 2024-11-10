@@ -19,7 +19,7 @@ const BsState = (props) => {
     // Post Booking function
     const handlePostBooking = async () => {
         try {
-            const response = await fetch('http://localhost:8080/api/booking', {
+            const response = await fetch('https://bookmyshow-1-6a3q.onrender.com/api/booking', {
                 method: 'POST', 
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
@@ -50,7 +50,7 @@ const BsState = (props) => {
     // Get Booking function
     const handleGetBooking = async () => {
         try {
-            const response = await fetch('http://localhost:8080/api/booking', {
+            const response = await fetch('https://bookmyshow-1-6a3q.onrender.com/api/booking', {
                 method: 'GET',
                 headers: { 'Content-Type': 'application/json' },
             });
